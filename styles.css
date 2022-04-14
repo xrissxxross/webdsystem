@@ -1,0 +1,96 @@
+<! DOCTYPE html>
+<html lang ="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Design System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="js/scripts.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chakra+Petch:wght@300&family=Heebo:wght@400;700&family=Manrope:wght@400;700&display=swap');
+</style>
+</head>
+
+<body>
+  <h1 class="title">My Website Style Guide
+ 
+  </h1>
+  <!--Navigation-->
+   
+  <div class=".menu-bttn">
+    <div class="menu-bttn-burger">
+    </div>
+  </div>
+
+
+ 
+  <!-- Main Content-->
+    
+    <div class="container">
+    <h1>Colors</h1>
+    <div class="colors">
+
+      <div class="coolblue">
+          <p>Cool Blue<br> #2d5dcc</p>
+      </div>
+      <div class="pink">
+          <p>Pink<br>#d957d9</p>
+      </div>
+      <div class="mintgreen">
+        <p>Mint Green<br>#4fe0b0</p>
+      </div>
+      <div class="biege">
+        <p>Biege<br>#efd9ca</p>
+      </div>
+   
+   </div>
+  <h1>Fonts</h1>
+  <article class="box">
+    
+    <h2 style="font-family: manrope;">Manrope</h2>
+      <p style="font-family: manrope;">The quick brown fox jumps over the lazy dog.</p>
+      <strong><p style="font-family: manrope;">The quick brown fox jumps over the lazy dog.</p></strong>
+     <em> <p style="font-family: manrope;">The quick brown fox jumps over the lazy dog.</p></em>
+
+      <h2 style="font-family: heebo;">Heebo</h2>
+      <p style="font-family: heebo;">The quick brown fox jumps over the     lazy dog.</p>
+      <strong><p style="font-family: heebo;">The quick brown fox jumps over the lazy dog.</p></strong>
+      <em><p style="font-family: heebo;">The quick brown fox jumps over the lazy dog.</p></em>
+
+      <h2 style="font-family:Chakra Petch;">Chakra Petch</h2>
+      <p style="font-family:Chakra Petch;">The quick brown fox jumps over the lazy dog.</p>
+     <strong> <p style="font-family:Chakra Petch;">The quick brown fox jumps over the lazy dog.</p></strong>
+      <em><p style="font-family:Chakra Petch;" >The quick brown fox jumps over the lazy dog.</p></em>  
+  </article>
+
+  <article class="box">
+    <h1>Text Styles</h1>
+    <h1>H1: Main Page Heading</h1>
+      <ul>
+        <li>Font-weight: 700 (bold)</li>
+        <li>Font-size: 26px</li>
+        <li>Font-family: Nunito Sans</li>
+      </ul>
+
+      <h2>H2 Subheading</h2>
+      <ul>
+        <li>Font-weight 500</li>
+        <li>Font-size: 18px</li>
+        <li>Font-family: Poppins</li>
+      </ul>
+
+      <p>Paragraph Text</p>
+      <ul>
+        <li>Font-weight: 400 (regular)</li>
+        <li>Font-size: 14px</li>
+        <li>Font-family: Poppins</li>
+      </ul>
+
+  </article>
+
+ 
+
+ </div>
+</body>
+<footer>&copy 2022 Christion Miller</footer>
+</html>
